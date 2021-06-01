@@ -1,3 +1,5 @@
+CREATE USER 'cristaliux'@'localhost' IDENTIFIED BY '12345';
+GRANT ALL PRIVILEGES ON * . * TO 'cristaliux'@'localhost';
 CREATE DATABASE menu;
 USE menu;
 -- phpMyAdmin SQL Dump
